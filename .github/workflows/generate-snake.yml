@@ -23,5 +23,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          artifact_name: contribution-snake-artifact
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
